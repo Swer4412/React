@@ -5,6 +5,7 @@ import './index.css';
 
 import reportWebVitals from './reportWebVitals';
 import App from './components/App';
+import Todo from './components/Todo';
 
 import abc, {add, sub} from './calculator.js'
 console.log(add(1,3))
@@ -15,7 +16,7 @@ console.log(sub(1,3))
 const root = ReactDOM.createRoot(document.getElementById('root')); //Essendo react 18.x si scrive in questo modo
 // Nel javascript normale non si puo mischiare html e css, c'è per questo create-react-app (bundler) che inietta del codice in modo che funzioni
 root.render( 
-  <App/>
+  <Todo/>
 );
 
 // If you want to start measuring performance in your app, pass a function
