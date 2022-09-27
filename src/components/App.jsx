@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react'
 import Header from "./Header"
 import Custom from "./Custom"
 
-export default function _App() {
+export default function App() {
     const eta = 19
     const nome = "Andrea"
 
