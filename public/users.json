@@ -1,0 +1,14 @@
+{
+    "aldo" : {
+        "nome":"aldo",
+        "eta":64
+    },
+    "giovanni" : {
+        "nome":"giovanni",
+        "eta":65
+    },
+    "giacomo" : {
+        "nome":"giacomo",
+        "eta":66
+    }
+}
