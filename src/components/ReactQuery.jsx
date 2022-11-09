@@ -24,9 +24,8 @@ function Button() {
 
 
 
-const fetcher = (repo) => {
-    return fetch(`https://api.github.com/repos/${repo}`).then(res => res.json()) // res.json è una promise quindi a fetcher viene "assegnata" una promise
-}
+const fetcher = (repo) => fetch(`https://api.github.com/repos/${repo}`).then(res => res.json()) // res.json è una promise quindi a fetcher viene "assegnata" una promise
+
 /*enabled property*/
 function Button2() {
     

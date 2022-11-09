@@ -8,11 +8,12 @@ import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools} from 'react-query/devtools' /* è un vero e proprio strumento che viene renderizzato sulla pagina e serve per aiutare gli sviluppatori*/ 
 
 
-import App from './components/App';
-import Todo from './components/Todo';
+import App from './components/App'
+import Todo from './components/Todo'
 import RouteApp from "./components/Routing"
-import TailWind from './components/TailWind';
+import TailWind from './components/TailWind'
 import ReactQuery from './components/ReactQuery'
+import SmallBlog from './components/SmallBlog'
 
 import abc, {add, sub} from './calculator.js'
 console.log(add(1,3))
@@ -25,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root')); //Essendo rea
 // Nel javascript normale non si puo mischiare html e css, c'è per questo create-react-app (bundler) che inietta del codice in modo che funzioni
 root.render( 
   <QueryClientProvider client = {client}> {/*QueryClientProvider serve per connetterti e fornire un QueryClient alla tua applicazione*/}
-    <ReactQuery/>
+    <SmallBlog/>
     <ReactQueryDevtools/> 
   </QueryClientProvider>,
 );
